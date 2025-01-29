@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inloggning</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
 
     <header>
-      <h1>WELCOME.</h1>
+      <h1>WELCOME TO MY LOGIN SITE.</h1>
     </header>
 
     <div class="login-container"> 
@@ -19,7 +22,6 @@
         <div class="input-group">
           <input
             type="text"
-            class="input-field"
             placeholder="Ange din e-postadress"
             required
           />
@@ -28,22 +30,26 @@
         <div class="input-group">
           <input
             type="password"
-            class="input-field"
             placeholder="Lösenord"
-            required
+            required      
           />
         </div>
+
+         <input type="checkbox">
+<label for="checkbox">Kom ihåg mig</label><br>
 
         <button type="submit" class="login-btn">Logga in</button>
       </form>
 
-      <div class="text-center">
+      <div class="forgot-password">
         <p><a href="#">Glömt lösenordet?</a></p>
       </div>
         
-        <div class="text-center"><br>
+        <div class="create-account"><br>
           <p><a href="#">Skapa konto</a></p></br>
         </div>
+        
+        <i class="fa-solid fa-web-awesome"></i>
         
   </body>
 </html>
