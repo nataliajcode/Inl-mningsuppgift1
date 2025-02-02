@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--Länk till stjärnikonen-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> <!--Länk till typsnitt Roboto-->
+
   </head>
   <body>
 
     <header>
-      <h1>WELCOME TO MY LOGIN SITE.</h1>
+      <h1>WELCOME TO MY LOGIN SITE</h1>     <!--Rubriken/headern högst upp på siten-->
     </header>
 
-    <div class="login-container"> 
-      <h2>Logga in eller skapa konto nedan</h2>
-      <form>
+    <div class="login-container">     <!--Underrubrik som skall ingå i containern-->
+      <h2>Logga in eller skapa konto</h2>
 
-        <div class="input-group">
+      <form>
+        <div class="input-group">   <!--Ett inputfält där man skriver in sin mailadress. Required tillagd för att uppmamna användaren att skriva in sina uppgifter-->
           <input
             type="text"
             placeholder="Ange din e-postadress"
@@ -27,7 +29,7 @@
           />
         </div>
 
-        <div class="input-group">
+        <div class="input-group">    <!--Ett inputfält där man skriver in sitt lösenord. Required tillagd för att uppmamna användaren att skriva in sina uppgifter-->
           <input
             type="password"
             placeholder="Lösenord"
@@ -35,21 +37,21 @@
           />
         </div>
 
-         <input type="checkbox">
-<label for="checkbox">Kom ihåg mig</label><br>
+         <input type="checkbox">           <!--Checkbock som användare kan bocka i för att slippa ange inlogg nästa gång-->
+         <label for="checkbox">Kom ihåg mig</label>      <!--Text bredvid checkbox-->
 
-        <button type="submit" class="login-btn">Logga in</button>
-      </form>
+        <button type="submit" class="login-btn">Logga in</button>     <!--Logga in-knapp-->
+        </form>
 
-      <div class="forgot-password">
+      <div class="forgot-password">    <!--Länk för återställning av lösenord-->
         <p><a href="#">Glömt lösenordet?</a></p>
       </div>
         
-        <div class="create-account"><br>
-          <p><a href="#">Skapa konto</a></p></br>
+        <div class="create-account">    <!--Länk för att skapa nytt konto-->
+          <p><a href="#">Skapa konto</a></p>
         </div>
-        
-        <i class="fa-solid fa-web-awesome"></i>
-        
+ 
+        <i class="fa-solid fa-star"></i>   <!--Stjärnikon-->
+
   </body>
 </html>
